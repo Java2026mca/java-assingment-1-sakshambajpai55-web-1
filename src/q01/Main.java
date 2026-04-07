@@ -6,7 +6,7 @@ public class Main {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            // Print leading spaces
+    
             for (int j = i; j < n; j++) {
                 System.out.print(" ");
             }
@@ -23,7 +23,7 @@ public class Main {
         }
 
         for (int i = n - 1; i >= 1; i--) {
-            // Print leading spaces
+    
             for (int j = i; j < n; j++) {
                 System.out.print(" ");
             }
